@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*
+    Author: Abraham Aguilar
+    Date:   11.1.17
+
+   Filename: gp_print.css
+
+   This file contains the printer styles used with the sample
+   comic book pages from Golden Pulps.
+
+*/
+
+/* Hidden Objects */
+
+nav, footer, article {
+  display: none;
+}
+
+/* Comic Book Sheet Styles */
+
+section#sheet {
+  width: 6in;
+  margin: 0 auto;
+}
+
+img.size1 {
+  width: 5in;
+}
+
+img.size2 {
+  width: 3in;
+}
+
+img.size3 {
+  width: 2in;
+}
+
+img.size4 {
+  width: 1.5in;
+}
