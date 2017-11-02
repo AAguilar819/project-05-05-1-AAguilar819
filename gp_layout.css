@@ -23,15 +23,21 @@ body {
   flex-flow: row wrap;
 }
 
+/*This makes the entire body flexible and wrapable for resizing.*/
+
 section#sheet {
   -webkit-flex: 3 1 301px;
   flex: 3 1 301px;
 }
 
+/*This makes the section have a scale factor of 3, a shrink factor of 1, and a basis of 301 pixels.*/
+
 article {
   -webkit-flex: 1 3 180px;
   flex: 1 3 180px;
 }
+
+/*This makes the section have a scale factor of 1, a shrink factor of 3, and a basis of 180 pixels.*/
 
 /* ============================================
 	Mobile Devices: 0 - 480 pixels
@@ -49,6 +55,8 @@ article {
   }
 }
 
+/*This entire media style rule makes the nav go ontop of the body footer for when the screen reaches mobile size.*/
+
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
@@ -62,10 +70,12 @@ article {
     flex-flow: row nowrap;
     height: 40px;
   }
+  /*This section makes the nav element in screens 481 pixels or greater flexible with no wrap, and gives a height of 40 pixels.*/
   nav.horizontal ul li {
     -webkit-flex: 1 1 auto;
     flex: 1 1 auto;
   }
+  /*This makes the text in the nav element have a scale and shrink factor of 1, and makes the basis automatically determined by the computer.*/
   img.size1 {
     width: 100%;
   }
@@ -79,3 +89,5 @@ article {
     width: 30%;
   }
 }
+
+/*These four image styles make the images sized to fit like a comic book, and makes certain images certain sized depending on the class name.*/

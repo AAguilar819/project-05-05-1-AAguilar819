@@ -16,12 +16,16 @@ nav, footer, article {
   display: none;
 }
 
+/*This hides the 3 element when printing the website.*/
+
 /* Comic Book Sheet Styles */
 
 section#sheet {
   width: 6in;
   margin: 0 auto;
 }
+
+/*This makes the width 6 inches and positions the element so that it's centered.*/
 
 img.size1 {
   width: 5in;
@@ -38,3 +42,5 @@ img.size3 {
 img.size4 {
   width: 1.5in;
 }
+
+/*These 4 elements set the size of the images to look like it's in a comic book by sizing them to properly fit into the page.*/
